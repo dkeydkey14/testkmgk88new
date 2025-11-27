@@ -1,0 +1,75 @@
+# ===========================================
+# LỆNH BUILD CHO CLOUDFLARE PAGES
+# ===========================================
+
+# Bước 1: Cài dependencies (nếu chưa có)
+npm install
+
+# Bước 2: Xóa cache build cũ
+rmdir /s /q .next
+rmdir /s /q out
+
+# Bước 3: Build static site
+npm run build
+
+# Bước 4: Kiểm tra folder out đã được tạo
+dir out
+
+# Bước 5: Test local (optional)
+npm run preview
+
+# ===========================================
+# ĐẨY LÊN GIT (nếu dùng Git auto-deploy)
+# ===========================================
+
+# Init git (nếu chưa có)
+git init
+
+# Add files
+git add .
+
+# Commit
+git commit -m "Ready for Cloudflare Pages deploy"
+
+# Add remote (thay YOUR_USERNAME)
+git remote add origin https://github.com/YOUR_USERNAME/gk88-khuyenmai.git
+
+# Push lên GitHub
+git push -u origin main
+
+# ===========================================
+# CẤU HÌNH CLOUDFLARE PAGES
+# ===========================================
+
+Project name:           testkmgk88new
+Production branch:      main
+
+Build Settings:
+  Framework preset:       Next.js (Static HTML Export)
+  Build command:          npm run build
+  Build output directory: out          ← QUAN TRỌNG!
+  Root directory:         /
+
+Environment Variables: (Click "Add variable")
+  NEXT_PUBLIC_BASE_URL = https://your-backend-url.com
+
+# ===========================================
+# SAU KHI DEPLOY XONG
+# ===========================================
+
+Frontend URL: https://testkmgk88new.pages.dev
+Test các trang:
+  - https://testkmgk88new.pages.dev/
+  - https://testkmgk88new.pages.dev/admin/login/
+
+# ===========================================
+# CẬP NHẬT SAU NÀY
+# ===========================================
+
+# Sửa code rồi push:
+git add .
+git commit -m "Update features"
+git push
+
+# Cloudflare tự động build và deploy!
+

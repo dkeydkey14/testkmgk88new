@@ -1,0 +1,15 @@
+{
+    "name": "GK88 - Trung Tâm Khuyến Mãi",
+    "short_name": "GK88",
+    "icons": [
+        {
+            "src": "/images/GK88.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "theme_color": "#FB923C",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}

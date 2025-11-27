@@ -1,0 +1,17 @@
+# Cloudflare Pages Redirects
+
+# Favicon redirect
+/favicon.ico /images/GK88.png 301
+
+# Admin routes - phải để TRƯỚC SPA fallback
+/admin /admin/index.html 200
+/admin/ /admin/index.html 200
+/admin/login /admin/login/index.html 200
+/admin/display-promotions /admin/display-promotions/index.html 200
+/admin/form-promotions /admin/form-promotions/index.html 200
+/admin/links /admin/links/index.html 200
+/admin/settings /admin/settings/index.html 200
+
+# SPA fallback - PHẢI Ở CUỐI
+/* /index.html 200
+

@@ -1,0 +1,68 @@
+{
+  "promotions": [
+    {
+      "id": 1,
+      "code": "GK01",
+      "title": "HỘI VIÊN MỚI NẠP ĐẦU THƯỞNG 28.888.000VND",
+      "apiEndpoint": "https://api.83868668.com/gk01",
+      "active": true,
+      "order": 1
+    },
+    {
+      "id": 2,
+      "code": "GK02",
+      "title": "HỘI VIÊN NẠP LẦN 2 THƯỞNG 15.888.000VND",
+      "apiEndpoint": "https://api.83868668.com/gk02",
+      "active": true,
+      "order": 2
+    },
+    {
+      "id": 3,
+      "code": "USDT03",
+      "title": "NGÀY VÀNG 10, 20, 30 - KHUYẾN MÃI 6%",
+      "apiEndpoint": "https://api.83868668.com/usdt03",
+      "active": true,
+      "order": 3
+    },
+    {
+      "id": 4,
+      "code": "GK03",
+      "title": "BẮN CÁ NỔ HŨ NẠP ĐẦU THƯỞNG 8.888K",
+      "apiEndpoint": "https://api.83868668.com/gk03",
+      "active": true,
+      "order": 4
+    },
+    {
+      "id": 5,
+      "code": "GK40",
+      "title": "NỔ HŨ - BẮN CÁ MỖI NGÀY NẠP 200K NHẬN THƯỞNG 40K",
+      "apiEndpoint": "https://api.83868668.com/gk40",
+      "active": true,
+      "order": 5
+    },
+    {
+      "id": 6,
+      "code": "LE04",
+      "title": "ĐÓN HỘI VIÊN CŨ QUAY LẠI THƯỞNG MIỄN PHÍ 8.888K",
+      "apiEndpoint": "https://api.83868668.com/le04",
+      "active": true,
+      "order": 6
+    },
+    {
+      "id": 7,
+      "code": "LE05",
+      "title": "HỘI VIÊN CŨ NẠP TIỀN 7 NGÀY NHẬN NGAY 18.888K",
+      "apiEndpoint": "https://api.83868668.com/le05",
+      "active": true,
+      "order": 7
+    },
+    {
+      "id": 8,
+      "code": "GH05",
+      "title": "SĂN VÉ CƯỢC MAY MẮN CASINO THƯỞNG KHỦNG 18.888.000VND",
+      "apiEndpoint": "https://api.83868668.com/gh05",
+      "active": true,
+      "order": 8
+    }
+  ]
+}
